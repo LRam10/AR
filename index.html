@@ -11,34 +11,34 @@
 </head>
     <body style='margin : 0px; overflow: hidden;'>
         <script>
-           AFRAME.registerComponent('t_rex', { 
-           tick: function () {
-                  let entity = document.querySelector('#audio01');
-                if ( document.querySelector('#t-rex').object3D.visible === true) {
-                   entity.components.sound.playSound();
-               } else {
-                   entity.components.sound.stopSound();
-               }
-            }
-       });
+      //      AFRAME.registerComponent('t_rex', { 
+      //      tick: function () {
+      //             let entity = document.querySelector('#audio01');
+      //           if ( document.querySelector('#t-rex').object3D.visible === true) {
+      //              entity.components.sound.playSound();
+      //          } else {
+      //              entity.components.sound.stopSound();
+      //          }
+      //       }
+      //  });
 
-          AFRAME.registerComponent('sketch_trex',{
-            tick: function () {
-                     let audio = document.querySelector('#audio02');
-                   if ( document.querySelector('#sketch').object3D.visible === true) {
-                      audio.components.sound.playSound();
-                  } else {
-                      audio.components.sound.stopSound();
-                  }
-               }
-          });
+      //     AFRAME.registerComponent('sketch_trex',{
+      //       tick: function () {
+      //                let audio = document.querySelector('#audio02');
+      //              if ( document.querySelector('#sketch').object3D.visible === true) {
+      //                 audio.components.sound.playSound();
+      //             } else {
+      //                 audio.components.sound.stopSound();
+      //             }
+      //          }
+      //     });
       </script>
       <a-scene embedded arjs='sourceType:webcam;'>
         <a-assets>
           <audio id='dino' src="T_REX.mp3" preload="auto"></audio>
           <audio id='t_rex' src="Sketch.mp3" preload="auto"></audio>
         </a-assets>
-         <a-marker id="t-rex" type="pattern" url="pattern-beaker(1).patt">
+         <a-marker id="t-rex" type="barcode" url="qr-code.png">
              <a-entity gltf-model="url(Models/t_rex/scene.gltf)"  scale="0.01 0.01 0.01" rotation="0 0 0" position="0 0.2 0"
             animation="property: rotation; to:0 360 0; dur: 9000; loop:true; easing: linear" t_rex>
             </a-entity>
