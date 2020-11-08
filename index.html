@@ -6,13 +6,13 @@
   <script src="https://raw.githack.com/fcor/arjs-gestures/master/dist/gestures.js"></script>
   <body style="margin : 0px; overflow: hidden;">
     <a-scene embedded arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960;' gesture-detector id='full-arms'>
-      <a-marker-camera preset='custom' type='pattern' url='./Pattern/pattern-Artboard.patt' raycaster="objects: .clickable"
+      <a-marker-camera preset='custom' type='pattern' url='./Pattern/pattern-Volcano.patt' raycaster="objects: .clickable"
       emitevents="true"
       cursor="fuse: false; rayOrigin: mouse;"
       id="markerA">
         <a-entity
           position=".05 0 0"
-          scale="1 1 1"
+          scale=".5 .5 .5"
           rotation = "0 190 180"
           gltf-model='url(./Models/science_fair_volcano/scene.gltf)'
           class="clickable"
