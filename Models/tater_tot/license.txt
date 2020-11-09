@@ -1,0 +1,11 @@
+Model Information:
+* title:	Tater Tot, _several
+* source:	https://sketchfab.com/3d-models/tater-tot--several-b46dc43eeb0f4625b8381b18f2d5c6c3
+* author:	Mr. Trevor (https://sketchfab.com/tjmartin97)
+
+Model License:
+* license type:	CC-BY-ND-4.0 (http://creativecommons.org/licenses/by-nd/4.0/)
+* requirements:	Author must be credited. Modified versions can not be distributed. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Tater Tot, _several" (https://sketchfab.com/3d-models/tater-tot--several-b46dc43eeb0f4625b8381b18f2d5c6c3) by Mr. Trevor (https://sketchfab.com/tjmartin97) licensed under CC-BY-ND-4.0 (http://creativecommons.org/licenses/by-nd/4.0/)
